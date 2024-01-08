@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+
+h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+h2
+{
+    font-family: 'Rubik Maps', system-ui;
+
+}
+ h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+}
+.bg-custom{
+    background-color: #76c7c1;
+}
+.banner-caption{
+    /* position: absolute;
+    top: 50%; */
+    transform: translateY(-50%);
+    background-color: rgba(51, 169, 168, 0.6);
+    padding: 50px 50px 50px 150px;
+    max-width: 550px;
+}
+
+
+.about-img {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.services-section {
+    background-color: #76c7c1;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.icon{
+    background: url("../images/icons.png") no-repeat;
+    margin: 15px auto;
+    transition: all 0.2s ease-in-out;
+}
+.key-icon{
+    height: 62px;
+    width: 63px;
+}
+.key-icon:hover{
+    background-position: 0px -87px;
+}
+.blade-icon{
+    width: 84px;
+    height: 70px;
+    background-position: -63px 0px;
+}
+.blade-icon:hover{
+    background-position: -66px -80px;
+}
+.clip-icon{
+    height: 60px;
+    width: 56px;
+    background-position: -154px 0px;
+}
+.clip-icon:hover{
+    background-position: -153px -89px;
+}
+
+
+.gallery-img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* other concepts */
+.custom-table td{
+    background-color: red;
+}
+.bg-danger{
+    background-color: blueviolet !important;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blog-date {
+    color: #6c757d;
+}
+
+.blog-content {
+    line-height: 1.6;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
